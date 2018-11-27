@@ -1,5 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 
 # Valorize Vidas
@@ -98,8 +98,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/6784777?v=4" width="100px;"/><br /><sub><b>Mikael Hadler</b></sub>](http://mikaelhadler.com.br)<br />[💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Code") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Documentation") [👀](#review-mikaelhadler "Reviewed Pull Requests") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Tests") |
-| :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/6784777?v=4" width="100px;"/><br /><sub><b>Mikael Hadler</b></sub>](http://mikaelhadler.com.br)<br />[💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Code") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Documentation") [👀](#review-mikaelhadler "Reviewed Pull Requests") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Tests") | [<img src="https://avatars3.githubusercontent.com/u/16074925?v=4" width="100px;"/><br /><sub><b>Jhonata Galante</b></sub>](https://github.com/JhonGalante)<br />[💬](#question-JhonGalante "Answering Questions") [📝](#blog-JhonGalante "Blogposts") [🐛](https://github.com/ValorizeVidas/valorize-vidas/issues?q=author%3AJhonGalante "Bug reports") [💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=JhonGalante "Code") [🎨](#design-JhonGalante "Design") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=JhonGalante "Documentation") [📋](#eventOrganizing-JhonGalante "Event Organizing") [💡](#example-JhonGalante "Examples") [💵](#financial-JhonGalante "Financial") [🔍](#fundingFinding-JhonGalante "Funding Finding") [🤔](#ideas-JhonGalante "Ideas, Planning, & Feedback") [🚇](#infra-JhonGalante "Infrastructure (Hosting, Build-Tools, etc)") [📦](#platform-JhonGalante "Packaging/porting to new platform") [🔌](#plugin-JhonGalante "Plugin/utility libraries") [👀](#review-JhonGalante "Reviewed Pull Requests") [📢](#talk-JhonGalante "Talks") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=JhonGalante "Tests") [🔧](#tool-JhonGalante "Tools") [🌍](#translation-JhonGalante "Translation") [✅](#tutorial-JhonGalante "Tutorials") [📹](#video-JhonGalante "Videos") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!

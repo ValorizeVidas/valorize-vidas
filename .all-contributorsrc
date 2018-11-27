@@ -20,6 +20,35 @@
         "review",
         "test"
       ]
+    },
+    {
+      "login": "JhonGalante",
+      "name": "Jhonata Galante",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16074925?v=4",
+      "profile": "https://github.com/JhonGalante",
+      "contributions": [
+        "question",
+        "blog",
+        "bug",
+        "code",
+        "design",
+        "doc",
+        "eventOrganizing",
+        "example",
+        "financial",
+        "fundingFinding",
+        "ideas",
+        "infra",
+        "platform",
+        "plugin",
+        "review",
+        "talk",
+        "test",
+        "tool",
+        "translation",
+        "tutorial",
+        "video"
+      ]
     }
   ]
 }
