@@ -9,7 +9,9 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "predeploy": "CI=1 npm i cypress; npm test",
+    "deploy": "npm run build"
   },
   "repository": {
     "type": "git",
