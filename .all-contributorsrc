@@ -29,7 +29,10 @@
       "contributions": [
         "translation",
         "video",
-        "tutorial"
+        "tutorial",
+        "fundingFinding",
+        "ideas",
+        "plugin"
       ]
     }
   ]
