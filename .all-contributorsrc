@@ -20,6 +20,16 @@
         "review",
         "test"
       ]
+    },
+    {
+      "login": "JhonGalante",
+      "name": "Jhonata Galante",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16074925?v=4",
+      "profile": "https://github.com/JhonGalante",
+      "contributions": [
+        "translation",
+        "video"
+      ]
     }
   ]
 }
