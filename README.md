@@ -1,5 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 
 # Valorize Vidas
@@ -94,8 +94,8 @@ Um muito obrigado a essas pessoas maravilhosas :sparkling_heart: :
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/6784777?v=4" width="100px;"/><br /><sub><b>Mikael Hadler</b></sub>](http://mikaelhadler.com.br)<br />[💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Code") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Documentation") [👀](#review-mikaelhadler "Reviewed Pull Requests") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Tests") | [<img src="https://avatars1.githubusercontent.com/u/5131187?v=4" width="100px;"/><br /><sub><b>Iago Cavalcante</b></sub>](https://iagocavalcante.github.io)<br />[💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=iagocavalcante "Code") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=iagocavalcante "Documentation") [👀](#review-iagocavalcante "Reviewed Pull Requests") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=iagocavalcante "Tests") [🚇](#infra-iagocavalcante "Infrastructure (Hosting, Build-Tools, etc)") |
-| :---: | :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/6784777?v=4" width="100px;"/><br /><sub><b>Mikael Hadler</b></sub>](http://mikaelhadler.com.br)<br />[💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Code") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Documentation") [👀](#review-mikaelhadler "Reviewed Pull Requests") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=mikaelhadler "Tests") | [<img src="https://avatars1.githubusercontent.com/u/5131187?v=4" width="100px;"/><br /><sub><b>Iago Cavalcante</b></sub>](https://iagocavalcante.github.io)<br />[💻](https://github.com/ValorizeVidas/valorize-vidas/commits?author=iagocavalcante "Code") [📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=iagocavalcante "Documentation") [👀](#review-iagocavalcante "Reviewed Pull Requests") [⚠️](https://github.com/ValorizeVidas/valorize-vidas/commits?author=iagocavalcante "Tests") [🚇](#infra-iagocavalcante "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars3.githubusercontent.com/u/16074925?v=4" width="100px;"/><br /><sub><b>Jhonata Galante</b></sub>](https://github.com/JhonGalante)<br />[📖](https://github.com/ValorizeVidas/valorize-vidas/commits?author=JhonGalante "Documentation") |
+| :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
