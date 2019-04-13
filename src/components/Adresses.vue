@@ -87,6 +87,10 @@
         /* TODO: Colocar em contantes? */
         var self = this;
 
+        self.cityValue = null;
+        self.cities = null;
+        self.locales = null;
+
         const proxy = `https://cors-anywhere.herokuapp.com/<url>`
         const citiesURL = `https://www.cvv.org.br/search/cities?stateId=${uf}`
 
@@ -99,7 +103,7 @@
     fetchCVVsInACity({ id }) {
          /* TODO: Colocar em contantes? */
         var self = this;
-
+        
         const proxy = `https://cors-anywhere.herokuapp.com/<url>`
         const cvvsURL = `https://www.cvv.org.br/search/places?city_id=${ id }`
 
