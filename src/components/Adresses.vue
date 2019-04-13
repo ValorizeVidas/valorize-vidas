@@ -13,8 +13,12 @@
         placeholder="Em que estado você está?"
         selectLabel=""
         selectedLabel="selecionado"
-        deselectLabel=""    
-      ></multiselect>
+        deselectLabel=""
+      >
+        <span slot="noResult">
+          😔 Não encontramos. Ligue para 188, é de graça!
+        </span>
+      </multiselect>
     </div>
     
     <div class="adress-select-wrapper">
@@ -29,10 +33,14 @@
         selectLabel=""
         selectedLabel="selecionado"
         deselectLabel=""
-      ></multiselect>
+      >
+        <span slot="noResult">
+          😔 Não encontramos. Ligue para 188, é de graça!
+        </span>
+      </multiselect>
     </div>
 
-    <p class="text-warning" v-if="(cities && cities.length === 0) || (locales && locales.length === 0)">😔 Infelizmente não encontramos nenhum suporte em sua cidade, mas não acabou! Ligue para 188, é de graça!</p>
+    <p class="text-warning" v-if="(cities && cities.length === 0) || (locales && locales.length === 0)">😔 Infelizmente não encontramos suporte em sua cidade, mas não acabou! Ligue para 188, é de graça!</p>
 
     <div class="locales">
       <div class="locales-card" v-for="item in locales">
@@ -146,7 +154,6 @@
     border-radius: 5px;
     background: rgba(255, 0, 0, 0.1);
     text-align: center;
-    margin-top: 1rem;
     margin-bottom: 1rem;
  }
 
