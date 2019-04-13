@@ -86,7 +86,7 @@ Por favor leia o [CONTRIBUTING.md](CONTRIBUTING.md) para mais detalhe do process
 
 Nós utilizamos o [GitFlow](https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04) para o versionamento. Para utilizar versões anteriores veja as [tags neste repositorio](https://github.com/valorizevidas/valorize-vidas/tags).
 
-## Licensa
+## Licença
 
 Este projeto utiliza a licença MIT - olhe no arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
