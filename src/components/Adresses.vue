@@ -3,39 +3,44 @@
 
     <h1>Para te ajudar, precisamos saber algumas informações 😊</h1>
 
-    <multiselect
-      v-model="ufValue"
-      :options="states"
-      @select="fetchCitiesThatHasCVV"
-      track-by="label"
-      label="label"
-      placeholder="Em que estado você está?"
-      selectLabel=""
-      selectedLabel="selecionado"
-      deselectLabel=""    
-    ></multiselect>
+    <div class="adress-select-wrapper">
+      <multiselect
+        v-model="ufValue"
+        :options="states"
+        @select="fetchCitiesThatHasCVV"
+        track-by="label"
+        label="label"
+        placeholder="Em que estado você está?"
+        selectLabel=""
+        selectedLabel="selecionado"
+        deselectLabel=""    
+      ></multiselect>
+    </div>
+    
+    <div class="adress-select-wrapper">
+      <multiselect
+        v-if="cities && cities.length > 0"
+        v-model="cityValue"
+        :options="cities"
+        @select="fetchCVVsInACity"
+        track-by="id"
+        label="name"
+        placeholder="Em que cidade você está?"
+        selectLabel=""
+        selectedLabel="selecionado"
+        deselectLabel=""
+      ></multiselect>
+    </div>
 
-    <multiselect
-      v-if="cities && cities.length > 0"
-      v-model="cityValue"
-      :options="cities"
-      @select="fetchCVVsInACity"
-      track-by="id"
-      label="name"
-      placeholder="Em que cidade você está?"
-      selectLabel=""
-      selectedLabel="selecionado"
-      deselectLabel=""
-    ></multiselect>
+    <p class="text-warning" v-if="(cities && cities.length === 0) || (locales && locales.length === 0)">😔 Infelizmente não encontramos nenhum suporte em sua cidade, mas não acabou! Ligue para 188, é de graça!</p>
 
-
-    <ul id="example-1">
-      <li v-for="item in locales">
-        {{ item.address }}
-        {{ item.time }}
-        {{ item.phone }}
-      </li>
-    </ul>
+    <div class="locales">
+      <div class="locales-card" v-for="item in locales">
+        <p><strong>Telefone</strong>: {{ item.phone }}</p>
+        <p><strong>Horário de Atendimento</strong>: {{ item.time }}</p>
+        <p><strong>Endereço</strong>: {{ item.address }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -103,7 +108,7 @@
     fetchCVVsInACity({ id }) {
          /* TODO: Colocar em contantes? */
         var self = this;
-        
+
         const proxy = `https://cors-anywhere.herokuapp.com/<url>`
         const cvvsURL = `https://www.cvv.org.br/search/places?city_id=${ id }`
 
@@ -134,4 +139,34 @@
     color: #000000a3;
     margin-bottom: 1rem;
  } 
+
+ .text-warning {
+    border: 1px solid darkred;
+    padding: 1rem;
+    border-radius: 5px;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .adress-select-wrapper {
+   margin-bottom: 1rem;
+ }
+
+ .locales {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+ }
+
+ .locales-card {
+    border: 1px solid #bcbdbc;
+    padding: 1rem;
+    border-radius: 5px;
+    background: rgb(255, 250, 250);
+    margin: 1rem;
+    width: fit-content;
+ }
 </style>
