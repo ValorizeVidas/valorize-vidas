@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import ContactVolunteer from './views/ContactVolunteer.vue'
+import Adresses from './views/Adresses.vue'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/voluntario',
       name: 'ContactVolunteer',
       component: ContactVolunteer
+    },
+    {
+      path: '/enderecos',
+      name: 'Adresses',
+      component: Adresses
     }
   ]
 })
