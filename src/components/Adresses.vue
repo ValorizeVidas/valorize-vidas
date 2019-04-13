@@ -1,17 +1,41 @@
 <template>
-  <div>
-    <multiselect v-model="ufValue" :options="states" @select="fetchCitiesThatHasCVV" track-by="label" label="label"></multiselect>
-    <multiselect v-if="cities && cities.length > 0" v-model="cityValue" :options="cities" @select="fetchCVVsInACity" track-by="id" label="name"></multiselect>
+  <div class="Address-wrapper">
+
+    <h1>Para te ajudar, precisamos saber algumas informações 😊</h1>
+
+    <multiselect
+      v-model="ufValue"
+      :options="states"
+      @select="fetchCitiesThatHasCVV"
+      track-by="label"
+      label="label"
+      placeholder="Em que estado você está?"
+      selectLabel=""
+      selectedLabel="selecionado"
+      deselectLabel=""    
+    ></multiselect>
+
+    <multiselect
+      v-if="cities && cities.length > 0"
+      v-model="cityValue"
+      :options="cities"
+      @select="fetchCVVsInACity"
+      track-by="id"
+      label="name"
+      placeholder="Em que cidade você está?"
+      selectLabel=""
+      selectedLabel="selecionado"
+      deselectLabel=""
+    ></multiselect>
 
 
     <ul id="example-1">
-  <li v-for="item in locales">
-    {{ item.address }}
-    {{ item.time }}
-    {{ item.phone }}
-  </li>
-</ul>
-
+      <li v-for="item in locales">
+        {{ item.address }}
+        {{ item.time }}
+        {{ item.phone }}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -28,34 +52,34 @@
         cities: null,
         locales: null,
         states: [
-{value: "AC", label: "Acre"},
-{value: "AL", label: "Alagoas"},
-{value: "AM", label: "Amazonas"},
-{value: "AP", label: "Amapá"},
-{value: "BA", label: "Bahia"},
-{value: "CE", label: "Ceará"},
-{value: "DF", label: "Distrito Federal"},
-{value: "ES", label: "Espírito Santo"},
-{value: "GO", label: "Goiás"},
-{value: "MA", label: "Maranhão"},
-{value: "MG", label: "Minas Gerais"},
-{value: "MS", label: "Mato Grosso do Sul"},
-{value: "MT", label: "Mato Grosso"},
-{value: "PA", label: "Pará"},
-{value: "PB", label: "Paraíba"},
-{value: "PE", label: "Pernambuco"},
-{value: "PI", label: "Piauí"},
-{value: "PR", label: "Paraná"},
-{value: "RJ", label: "Rio de Janeiro"},
-{value: "RN", label: "Rio Grande do Norte"},
-{value: "RO", label: "Rondônia"},
-{value: "RR", label: "Roraima"},
-{value: "RS", label: "Rio Grande do Sul"},
-{value: "SC", label: "Santa Catarina"},
-{value: "SE", label: "Sergipe"},
-{value: "SP", label: "São Paulo"},
-{value: "TO", label: "Tocantins"},
-]
+          {value: "AC", label: "Acre"},
+          {value: "AL", label: "Alagoas"},
+          {value: "AM", label: "Amazonas"},
+          {value: "AP", label: "Amapá"},
+          {value: "BA", label: "Bahia"},
+          {value: "CE", label: "Ceará"},
+          {value: "DF", label: "Distrito Federal"},
+          {value: "ES", label: "Espírito Santo"},
+          {value: "GO", label: "Goiás"},
+          {value: "MA", label: "Maranhão"},
+          {value: "MG", label: "Minas Gerais"},
+          {value: "MS", label: "Mato Grosso do Sul"},
+          {value: "MT", label: "Mato Grosso"},
+          {value: "PA", label: "Pará"},
+          {value: "PB", label: "Paraíba"},
+          {value: "PE", label: "Pernambuco"},
+          {value: "PI", label: "Piauí"},
+          {value: "PR", label: "Paraná"},
+          {value: "RJ", label: "Rio de Janeiro"},
+          {value: "RN", label: "Rio Grande do Norte"},
+          {value: "RO", label: "Rondônia"},
+          {value: "RR", label: "Roraima"},
+          {value: "RS", label: "Rio Grande do Sul"},
+          {value: "SC", label: "Santa Catarina"},
+          {value: "SE", label: "Sergipe"},
+          {value: "SP", label: "São Paulo"},
+          {value: "TO", label: "Tocantins"},
+        ]
       }
     },
   methods: {
@@ -91,3 +115,19 @@
 <!-- New step!
      Add Multiselect CSS. Can be added as a static asset or inside a component. -->
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
+
+<style lang="css" scoped>
+ .Address-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+ }
+
+ h1 {
+   font-family: 'Montserrat Medium';
+    font-size: 2rem;
+    color: #000000a3;
+    margin-bottom: 1rem;
+ } 
+</style>

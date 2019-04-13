@@ -1,5 +1,5 @@
 <template>
-  <div class="sss">
+  <div class="home">
     <AdressesList />
   </div>
 </template>
