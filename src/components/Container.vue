@@ -34,8 +34,10 @@
           <div class="column card-column">
             <Card :title="'Email'" :bgColor="'#F38C18'" />
           </div>
-          <div class="column card-column">
-            <Card :title="'Endereços'" :bgColor="'#F38C18'" />
+          <div class="column card-column">  
+            <router-link to="/enderecos">
+              <Card :title="'Endereços'" :bgColor="'#F38C18'" />
+            </router-link> 
           </div>
         </div>
       </div>

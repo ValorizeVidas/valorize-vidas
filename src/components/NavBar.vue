@@ -22,6 +22,9 @@
           <router-link to="/contato">Contato</router-link>
         </li>
         <li>
+          <router-link to="/enderecos">Endereços</router-link>
+        </li>
+        <li>
           <a href="#">Item</a>
         </li>
       </ul>

@@ -10429,6 +10429,11 @@ vue-loader@^15.6.4:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-multiselect@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/vue-multiselect/-/vue-multiselect-2.1.4.tgz#2a7b4958b75881ed34db45532974c36f9abfbc67"
+  integrity sha512-ryd2Ybl56LE81IxlwbZUo4gAWnUSG45iUGX4KgVwsteitK2R+cOLwJaJescobpIDJnVlVorRUnX5u7my1vBu2w==
+
 vue-router@^3.0.1:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.3.tgz#370ca607475c45a1cfab2d9d2ac846feab1c534c"
