@@ -26,7 +26,7 @@
         </div>
         <div class="columns is-variable is-4">
           <div class="column card-column">
-            <a href="#">
+            <a @click="openChat()">
               <Card :title="'Chat'" :icon="'comments-regular'" :bgColor="'#F38C18'" />
             </a>
           </div>
@@ -35,15 +35,15 @@
           </div>
         </div>
         <div class="columns is-variable is-4">
-          <div class="column card-column">              
+          <div class="column card-column">
             <router-link to="/contato">
               <Card :title="'Email'" :bgColor="'#F38C18'" />
             </router-link>
           </div>
-          <div class="column card-column">  
+          <div class="column card-column">
             <router-link to="/enderecos">
               <Card :title="'Endereços'" :bgColor="'#F38C18'" />
-            </router-link> 
+            </router-link>
           </div>
         </div>
       </div>
@@ -76,6 +76,12 @@ export default {
   name: 'Container',
   components: {
     Card
-  }
+  },
+  methods: {
+    openChat() {
+      if(confirm('Será aberto uma janela com o chat da CVV, deseja confirmar?'))
+        window.open('http://cvvweb.mysuite1.com.br/client/chatan.php?h=&inf=&lfa=',"janela1","width=600,height=450,scrollbars=NO")
+    },
+  },
 }
 </script>
