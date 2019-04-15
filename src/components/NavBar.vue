@@ -21,7 +21,7 @@
           <router-link to="/chat">Chat</router-link>
         </li>
         <li>
-          <router-link to="/contribuir">Contribuir</router-link>
+          <a href="http://apoia.se/valorizevidas" target="_blank" >Contribuir</a>
         </li>
         <li>
           <router-link to="/enderecos">Endereços</router-link>
