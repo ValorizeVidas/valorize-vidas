@@ -11,7 +11,7 @@ assignees: ''
 Uma descrição clara e concisa do problema. Ex. Estou sempre frustrada quando [...]
 
 **Descreva a solução que você gostaria**
-A clear and concise description of what you want to happen.
+Uma descrição clara e concisa do que você quer que aconteça.
 
 **Descreva as alternativas que você considerou**
 Uma descrição clara e concisa de quaisquer soluções alternativas ou recursos que você considerou.
