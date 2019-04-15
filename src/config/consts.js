@@ -29,5 +29,9 @@ export default {
     { value: "SE", label: "Sergipe" },
     { value: "SP", label: "São Paulo" },
     { value: "TO", label: "Tocantins" }
-  ]
+  ],
+  contact:
+    "https://docs.google.com/forms/d/e/1FAIpQLScts6mT2bhHq4VZOwufXWY0UQoi50OlvhzFs510DTtbvRKL5Q/viewform?embedded=true",
+  volunteer:
+    "https://docs.google.com/forms/d/e/1FAIpQLScPXR0Qx0hhwHDtI6t5dnHmXQVjW5F2Qp-2xDq3Q0B79c86dg/viewform?embedded=true"
 };

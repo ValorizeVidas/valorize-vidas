@@ -1,16 +1,14 @@
 <template>
-  <ContactVolunteer />
+  <FormContactVolunteer />
 </template>
 
 <script>
-import ContactVolunteer from '@/components/FormContactVolunteer'
+import FormContactVolunteer from '@/components/FormContactVolunteer'
 
 export default {
   name: 'ContactVolunteer',
   components: {
-    ContactVolunteer
+    FormContactVolunteer
   }
 }
 </script>
-
-<style scoped></style>
