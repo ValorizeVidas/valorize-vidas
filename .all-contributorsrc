@@ -136,6 +136,19 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "victorperin",
+      "name": "Victor Perin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5847145?v=4",
+      "profile": "http://victorperin.ninja",
+      "contributions": [
+        "question",
+        "bug",
+        "code",
+        "doc",
+        "ideas"
+      ]
     }
   ]
 }
