@@ -36,7 +36,8 @@
     "normalize.css": "^8.0.1",
     "vue": "^2.5.17",
     "vue-multiselect": "^2.1.4",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue2-google-maps": "^0.10.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.3",
