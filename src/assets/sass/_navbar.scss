@@ -60,6 +60,10 @@
     top: 0;
     width: 100%;
     width: 15vw;
+    @include mobile {
+      max-width: none;
+      width: 100%;
+    }
 
     &:after {
       background: rgba(0,0,0,0.5);
@@ -113,6 +117,10 @@
       &.active {
         transform: translateX(0);
         transition: transform 0.3s cubic-bezier(0,0,0.3,1);
+        @include mobile {
+          max-width: none;
+          width: 100%;
+        }
       }
     }
   }
