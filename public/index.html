@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <script>
+    <script>
       (function(i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
@@ -18,17 +18,12 @@
         window,
         document,
         "script",
-        "//www.google-analytics.com/analytics.js",
+        "https://www.google-analytics.com/analytics.js",
         "ga"
       );
 
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-138375806-1");
+      ga("create", "UA-138375806-1", "auto");
+      ga("send", "pageview");
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -72,7 +67,7 @@
     <!-- built files will be auto injected -->
     <!-- Place this tag where you want the Live Helper Plugin to render. -->
     <div id="lhc_status_container_page"></div>
-<!--     <script
+    <!--     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-138375806-1"
     ></script> -->
