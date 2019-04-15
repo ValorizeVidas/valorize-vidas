@@ -4,7 +4,7 @@ import Home from "./views/Home.vue";
 import Chat from "./views/Chat.vue";
 import Contact from "./views/Contact.vue";
 import ContactVolunteer from "./views/ContactVolunteer.vue";
-import Adresses from "./views/Adresses.vue";
+import Addresses from "./views/Addresses.vue";
 
 Vue.use(Router);
 
@@ -32,8 +32,8 @@ export default new Router({
     },
     {
       path: "/enderecos",
-      name: "Adresses",
-      component: Adresses
+      name: "Addresses",
+      component: Addresses
     }
   ]
 });

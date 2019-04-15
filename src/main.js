@@ -4,6 +4,15 @@ import router from "./router";
 import App from "./App.vue";
 import "./assets/sass/_styles.scss";
 
+import * as VueGoogleMaps from "vue2-google-maps";
+
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: process.env.VUE_APP_GOOGLE_API_SECRET,
+    libraries: "places"
+  }
+});
+
 Vue.config.productionTip = false;
 
 ga("set", "page", router.currentRoute.path);

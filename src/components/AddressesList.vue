@@ -42,37 +42,45 @@
 
     <p class="text-warning" v-if="(cities && cities.length === 0) || (locales && locales.length === 0)">😔 Infelizmente não encontramos suporte em sua cidade, mas não acabou! Ligue para 188, é de graça!</p>
 
-    <div class="locales">
-      <div class="locales-card"
+    <div class="locales columns">
+      <div class="locales-card column"
         v-for="(item, key) in locales"
         :key="key">
         <p><strong>Telefone</strong>: {{ item.phone }}</p>
         <p><strong>Horário de Atendimento</strong>: {{ item.time }}</p>
         <p><strong>Endereço</strong>: {{ item.address }}</p>
       </div>
+      <div class="column">
+        <GoogleMaps
+        v-if="locales"
+        :center="currentLocale"
+        :zoom="18"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import GoogleMaps from '@/components/GoogleMaps.vue'
 import Multiselect from 'vue-multiselect'
 import consts from '../config/consts'
 
-  export default {
-    name: "AdressesList",
-    components: { Multiselect },
-    data () {
-      return {
-        ufValue: null,
-        cityValue: null,
-        cities: null,
-        locales: null,
-        states: consts.states
-      }
-    },
+export default {
+  name: "AddressesList",
+  components: { Multiselect, GoogleMaps },
+  data () {
+    return {
+      ufValue: null,
+      cityValue: null,
+      cities: null,
+      locales: null,
+      states: consts.states,
+      currentLocale: null
+    }
+  },
   methods: {
     fetchCitiesThatHasCVV({value: uf}) {
-        var self = this;
+        let self = this;
 
         self.cityValue = null;
         self.cities = null;
@@ -83,7 +91,7 @@ import consts from '../config/consts'
 
         const url = proxy.replace('<url>', citiesURL)
 
-        fetch(url).then(res => res.json()).then(res => self.cities = res)
+        fetch(url).then(res => res.json()).then(res => self.cities = res )
     },
     fetchCVVsInACity({ id }) {
         var self = this;
@@ -93,10 +101,20 @@ import consts from '../config/consts'
 
         const url = proxy.replace('<url>', cvvsURL)
 
-        fetch(url).then(res => res.json()).then(res => self.locales = res)
-    }
+        fetch(url).then(res => res.json()).then(res => {
+          self.locales = res
+          this.setCurrentLocationOnMaps(self.locales[0])
+        })
+
+    },
+    setCurrentLocationOnMaps(locale) {
+      let self = this;
+
+      self.currentLocale = { lat: locale.latitude, lng: locale.longitude }
+      debugger;
     }
   }
+}
 </script>
 
 

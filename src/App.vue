@@ -10,6 +10,9 @@
     </section>
     <div class="columns">
       <div class="column"></div>
+    </div>
+    <div class="columns">
+      <div class="column"></div>
       <div class="column is-three-fifths">
         <Footer />
       </div>
@@ -20,11 +23,13 @@
 <script>
 import Navbar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
+import GoogleMaps from '@/components/GoogleMaps.vue'
 
 export default {
   components: {
     Navbar,
-    Footer
+    Footer,
+    GoogleMaps
   }
 };
 </script>
