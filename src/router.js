@@ -1,33 +1,39 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from './views/Home.vue'
-import Contact from './views/Contact.vue'
-import ContactVolunteer from './views/ContactVolunteer.vue'
-import Adresses from './views/Adresses.vue'
+import Vue from "vue";
+import Router from "vue-router";
+import Home from "./views/Home.vue";
+import Chat from "./views/Chat.vue";
+import Contact from "./views/Contact.vue";
+import ContactVolunteer from "./views/ContactVolunteer.vue";
+import Adresses from "./views/Adresses.vue";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'home',
+      path: "/",
+      name: "home",
       component: Home
     },
     {
-      path: '/contato',
-      name: 'Contact',
-      component: Contact
+      path: "/chat",
+      name: "Chat",
+      component: Chat
     },
     {
-      path: '/voluntario',
-      name: 'ContactVolunteer',
+      path: "/voluntariar",
+      name: "ContactVolunteer",
       component: ContactVolunteer
     },
     {
-      path: '/enderecos',
-      name: 'Adresses',
+      path: "/contato",
+      name: "Contact",
+      component: Contact
+    },
+    {
+      path: "/enderecos",
+      name: "Adresses",
       component: Adresses
     }
   ]
-})
+});

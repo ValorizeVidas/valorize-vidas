@@ -2,9 +2,11 @@
   <section class="home">
     <div class="columns is-multiline is-centered-tablet-only">
       <div class="column is-full-tablet is-4-desktop">
-        <figure class="logo">
-          <img src="../assets/images/logo-horizontal.svg" alt="Valorize Vidas" />
-        </figure>
+        <a href="/">
+          <figure class="logo">
+            <img src="../assets/images/logo-horizontal.svg" alt="Valorize Vidas" />
+          </figure>
+        </a>
       </div>
       <div class="column is-full-tablet is-4-desktop">
         <div class="mensagem">
@@ -24,15 +26,19 @@
         </div>
         <div class="columns is-variable is-4">
           <div class="column card-column">
-            <Card :title="'Chat'" :icon="'comments-regular'" :bgColor="'#F38C18'" />
+            <a href="#">
+              <Card :title="'Chat'" :icon="'comments-regular'" :bgColor="'#F38C18'" />
+            </a>
           </div>
           <div class="column card-column">
             <Card :title="'Ligue 188'" :icon="'mobile-alt-solid'" :bgColor="'#F38C18'" />
           </div>
         </div>
         <div class="columns is-variable is-4">
-          <div class="column card-column">
-            <Card :title="'Email'" :bgColor="'#F38C18'" />
+          <div class="column card-column">              
+            <router-link to="/contato">
+              <Card :title="'Email'" :bgColor="'#F38C18'" />
+            </router-link>
           </div>
           <div class="column card-column">  
             <router-link to="/enderecos">
@@ -54,7 +60,9 @@
             </a>
           </div>
           <div class="column card-column">
-            <Card :title="'Voluntariar'" :icon="'hand-holding-heart-solid'" :bgColor="'#F7C248'" />
+            <a href="/voluntariar">
+              <Card :title="'Voluntariar'" :icon="'hand-holding-heart-solid'" :bgColor="'#F7C248'" />
+            </a>
           </div>
         </div>
       </div>
