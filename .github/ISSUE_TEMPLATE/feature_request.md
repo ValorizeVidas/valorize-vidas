@@ -1,6 +1,6 @@
 ---
 name: Solicitação de feature
-about: 
+about: ''
 title: ''
 labels: ''
 assignees: ''
