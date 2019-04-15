@@ -1,4 +1,7 @@
 .google-forms {
   height: 761px;
   width: 640px;
+  @include mobile {
+    width: 100%
+  }
 }
