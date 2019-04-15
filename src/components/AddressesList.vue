@@ -111,7 +111,6 @@ export default {
       let self = this;
 
       self.currentLocale = { lat: locale.latitude, lng: locale.longitude }
-      debugger;
     }
   }
 }
