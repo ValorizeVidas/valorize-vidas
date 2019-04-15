@@ -60,9 +60,9 @@
             </a>
           </div>
           <div class="column card-column">
-            <a href="/voluntariar">
+            <router-link to="/voluntariar">
               <Card :title="'Voluntariar'" :icon="'hand-holding-heart-solid'" :bgColor="'#F7C248'" />
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
