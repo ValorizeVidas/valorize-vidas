@@ -120,7 +120,6 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/13910440?v=4",
       "profile": "https://github.com/raryson",
       "contributions": [
-        "bug",
         "code",
         "infra",
         "maintenance",
@@ -135,6 +134,75 @@
       "contributions": [
         "code",
         "design"
+      ]
+    },
+    {
+      "login": "victorperin",
+      "name": "Victor Perin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5847145?v=4",
+      "profile": "http://victorperin.ninja",
+      "contributions": [
+        "question",
+        "bug",
+        "code",
+        "doc",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Kzshii",
+      "name": "Kazushi Sakurada",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28403122?v=4",
+      "profile": "https://www.linkedin.com/in/ramon-kazushi-cossual-sakurada/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ramon-src",
+      "name": "Ramon Schmidt Rocha",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9883989?v=4",
+      "profile": "http://ramonsrc.com",
+      "contributions": [
+        "bug",
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "tghelere",
+      "name": "Thyago Ghelere",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5022782?v=4",
+      "profile": "https://github.com/tghelere",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "miguelssrs",
+      "name": "Miguel Soares",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20358128?v=4",
+      "profile": "http://miguelssrs.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "samuellevy",
+      "name": "Samuel Levy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1363643?v=4",
+      "profile": "https://github.com/samuellevy",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RenatoSiqueira",
+      "name": "Renato Siqueira",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30542215?v=4",
+      "profile": "https://github.com/RenatoSiqueira",
+      "contributions": [
+        "doc"
       ]
     }
   ]
