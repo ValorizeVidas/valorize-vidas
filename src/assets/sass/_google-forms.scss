@@ -1,4 +1,10 @@
-.google-forms {
+.form {
+  padding-top: 100px;
+}
+iframe.google-forms {
   height: 761px;
   width: 640px;
+  @include mobile {
+    width: 100%;
+  }
 }

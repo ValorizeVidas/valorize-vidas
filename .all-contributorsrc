@@ -113,6 +113,29 @@
         "code",
         "financial"
       ]
+    },
+    {
+      "login": "raryson",
+      "name": "Raryson Pereira Rost",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13910440?v=4",
+      "profile": "https://github.com/raryson",
+      "contributions": [
+        "bug",
+        "code",
+        "infra",
+        "maintenance",
+        "test"
+      ]
+    },
+    {
+      "login": "MateusGabi",
+      "name": "Mateus Gabi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14940643?v=4",
+      "profile": "https://github.com/MateusGabi",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ]
 }
