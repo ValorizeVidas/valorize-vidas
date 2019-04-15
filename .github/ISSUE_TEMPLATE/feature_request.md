@@ -1,6 +1,6 @@
 ---
 name: Solicitação de feature
-about: ''
+about: 'Solicitar novo recurso'
 title: ''
 labels: ''
 assignees: ''
