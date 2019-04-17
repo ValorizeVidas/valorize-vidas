@@ -12,25 +12,6 @@ entidades e resolver através do uso de ferramentas opensource.
 
 O projeto surgiu através da identificação de vários problemas atuais que ocorrem na única plataforma nacional de prevenção ao suicídio chamada [CVV - Centro de Valorização a Vida](https://www.cvv.org.br/).
 
-Sendo assim, o Valorize Vidas tem por objetivo inicial, re-escrever as soluções já fornecidas na plataforma da CVV, pois, atualmente não atendem ao cenário real, gerando problemas de gargalos e má usabilidade da plataforma.
-
-Temos um texto um pouco maior falando sobre isso, você [pode encontra-lo aqui](docs/escopo.md).
-
-## Qual nossa visão para termos o projeto "pronto"?
-
-- Re-escrever plataforma nacional [CVV](https://www.cvv.org.br/) com nossa [proposta de UX | UI](https://github.com/ValorizeVidas/valorize-vidas).
-- Ajudar as CVV regionais em como se apresentar para o público alvo, a fim de ter uma maior conversão de doações e voluntariado.
-
-## O que temos pronto?
-
-- [Página inicial](https://valorizevidas.org/) (botões principais ainda não estão funcionando)
-- [Página Contato](https://valorizevidas.org/#/contato)
-- [Proposta de UI/UX](https://www.figma.com/file/KoFAagWzzSdf9x9RSV7rl53R/Valorize-Vidas?node-id=1%3A93)
-
-## O que falta?
-
-- Dê uma olhada em [nossas issues](https://github.com/ValorizeVidas/valorize-vidas/issues)
-
 ## Como começar
 
 Abaixo estão as instruções de como utilizar o projeto em ambiente de desenvolvimento e produção.
