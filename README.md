@@ -1,4 +1,4 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Backers on Open Collective](https://opencollective.com/valorizevidas/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/valorizevidas/sponsors/badge.svg)](#sponsors) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors)
 [<img src="https://apoia.se/img/logoRed.svg" alt="drawing" width="100"/>](http://apoia.se/valorizevidas) Apoie nossa campanha de financiamento coletivo!
 
@@ -108,3 +108,33 @@ Um muito obrigado a essas pessoas maravilhosas :sparkling_heart: :
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/ValorizeVidas/valorize-vidas/graphs/contributors"><img src="https://opencollective.com/valorizevidas/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/valorizevidas#backer)]
+
+<a href="https://opencollective.com/valorizevidas#backers" target="_blank"><img src="https://opencollective.com/valorizevidas/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/valorizevidas#sponsor)]
+
+<a href="https://opencollective.com/valorizevidas/sponsor/0/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/1/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/2/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/3/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/4/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/5/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/6/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/7/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/8/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/valorizevidas/sponsor/9/website" target="_blank"><img src="https://opencollective.com/valorizevidas/sponsor/9/avatar.svg"></a>
+
+
