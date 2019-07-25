@@ -1,22 +1,15 @@
 <template>
   <div id="app">
     <Navbar />
-    <section class="columns">
-      <div class="column"></div>
+    <section class="columns is-centered">
       <div class="column is-three-fifths">
         <router-view />
       </div>
-      <div class="column"></div>
     </section>
-    <div class="columns">
-      <div class="column"></div>
-    </div>
-    <div class="columns">
-      <div class="column"></div>
+    <div class="columns is-centered">
       <div class="column is-three-fifths">
         <Footer />
       </div>
-      <div class="column"></div>
     </div>
   </div>
 </template>

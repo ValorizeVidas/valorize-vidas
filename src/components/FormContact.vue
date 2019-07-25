@@ -1,7 +1,6 @@
 <template>
-  <div class="columns form">
-    <div class="column is-3"></div>
-    <div class="column">
+  <div class="columns is-centered form">
+    <div class="column is-half">
       <iframe
         class="google-forms"
         :src="consts.contact"
@@ -11,7 +10,6 @@
         >Carregando…</iframe
       >
     </div>
-    <div class="column is-3"></div>
   </div>
 </template>
 <script>
