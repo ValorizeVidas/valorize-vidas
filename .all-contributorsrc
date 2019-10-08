@@ -204,6 +204,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "tiagohermano",
+      "name": "Tiago Hermano",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5157960?v=4",
+      "profile": "https://tiagohermano.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
