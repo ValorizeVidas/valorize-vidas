@@ -22,3 +22,15 @@
     min-height: 500px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin: auto;
+  }
+  .mensagem {
+    padding: 20px;
+  }
+  .cards {
+    padding: 20px;
+  }
+}
