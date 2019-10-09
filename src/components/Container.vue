@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="columns is-multiline cards">
-      <div class="column is-full-tablet is-half-desktop cards-container-column">
+      <div class="column is-full-tablet is-full-desktop is-half-widescreen cards-container-column">
         <div class="columns is-variable is-4 is-centered-tablet-only">
           <div class="column is-half-desktop">
             <span class="cards-title">Precisa de ajuda?</span>
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-full-tablet is-half-desktop cards-container-column">
+      <div class="column is-full-tablet is-full-desktop is-half-widescreen cards-container-column">
         <div class="columns is-variable is-4 is-centered-tablet-only">
           <div class="column is-half-desktop">
             <span class="cards-title">Quer ajudar?</span>
