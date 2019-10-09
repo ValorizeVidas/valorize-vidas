@@ -2,7 +2,7 @@
   <div id="app">
     <Navbar />
     <section class="columns is-centered">
-      <div class="column is-three-fifths">
+      <div class="column is-four-fifths is-offset-one-fifth">
         <router-view />
       </div>
     </section>
